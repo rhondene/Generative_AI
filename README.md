@@ -1,2 +1,2 @@
-# Generative_AI
+# Learn Generative_AI 
 Hosts code based on my generative AI learning journey. Practice makes perfect
