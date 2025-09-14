@@ -1,0 +1,56 @@
+name: genai_ml
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - huggingface
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.11
+  
+  # Core ML/AI packages
+  - pytorch
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # Data processing and utilities
+  - requests
+  - urllib3
+  - wget
+  - tqdm
+  - pyyaml
+  - jsonschema
+  
+  # Jupyter and development
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - notebook
+  - pip
+  - pip:
+    - transformers
+    - faiss-cpu
+    - datasets
+    - tokenizers
+    - sentencepiece
+    - langextract
+    - dspy
+    - openai
+    - anthropic
+    - langchain
+    - langchain-openai
+    - langchain-anthropic
+    - chromadb
+    - cohere
+    - sentence-transformers
+    - peft
+    - streamlit
+   
