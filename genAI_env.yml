@@ -11,7 +11,7 @@ dependencies:
   - python=3.11
   
   # Core ML/AI packages
-  - pytorch
+  - pytorch 
   - scikit-learn
   - scipy
   - statsmodels
